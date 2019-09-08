@@ -55,4 +55,3 @@ sed -i "s|%%THRESHOLD%%|$THRESHOLD|g" /usr/src/landroid-bridge/config.json
 # start server
 cd /usr/src/landroid-bridge
 exec node dist/server.js
-exec node dist/server.js
